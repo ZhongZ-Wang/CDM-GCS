@@ -26,6 +26,12 @@ The datasets used in CDM have been uploaded to Google Drive and can be downloade
 
 3D dataset: [Google Drive](https://drive.google.com/drive/folders/1I7bBZDVjF2Xet5dwdI7Cg1s0MvPkdgMP).
 
+### Pretrained model
+
+2D: [Google Drive](https://drive.google.com/drive/folders/1G57_DJLf5lh5Eq2LVci0Tg5KkmxYgLKu).
+
+3D: [Google Drive](https://drive.google.com/drive/folders/1RpqtgVACs42692tVjEQV_lKb4WcwHhyk).
+
 ### Network Training
 ```
 python Train.py
