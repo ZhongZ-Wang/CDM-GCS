@@ -13,11 +13,11 @@ We present an end-to-end generative inversion framework based on the conditional
 
 Framework:
 
-![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/cdm.pdf)
+![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/cdm.png)
 
 Network architecture:
 
-![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/network.pdf)
+![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/network.png)
 
 # Datasets
 The datasets used in CDM have been uploaded to Google Drive and can be downloaded using the following links:
