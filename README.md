@@ -7,7 +7,7 @@ Schematic diagram：
 ![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/gcs.png)
 
 
-# CDM-GCS: Generative inverse modeling for improved geological CO2 storage prediction via conditional diffusion models
+# CDM4GCS: Generative inverse modeling for GCS prediction via conditional diffusion models
 
 We present an end-to-end generative inversion framework based on the conditional diffusion model for efficiently characterizing heterogeneous geological properties and accelerating the inversion process. By employing an improved U-net to learn the conditional denoising diffusion process, the proposed framework enables the direct generation of high-dimensional property fields that closely match the observed data, eliminating the need for iterative forward simulations. Additionally, the probabilistic nature inherent in the diffusion approach allows for producing an ensemble of plausible geological realizations, facilitating effective quantification of parametric and predictive uncertainties.
 
