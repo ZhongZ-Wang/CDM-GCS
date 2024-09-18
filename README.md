@@ -10,6 +10,18 @@ Network architecture:
 
 ![Network architecture](https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/Fig/unet.pdf "system design")
 
+# Datasets
+The datasets used in CDM have been uploaded to [Google Drive](https://drive.google.com/drive/folders/1mi9Cmgnufi3kSMCeedP7G_K-4aEcd3_A?usp=drive_link) and can be downloaded using this link.
+
+# Network Training
+```
+python Train.py
+```
+
+# Network Inference (prediction)
+```
+python Inference.py
+```
 
 ## Citation
 If you find our work and/or our code useful, please cite us via:
