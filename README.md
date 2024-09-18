@@ -11,7 +11,11 @@ Network architecture:
 ![Network architecture](https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/Fig/unet.pdf "system design")
 
 # Datasets
-The datasets used in CDM have been uploaded to [Google Drive](https://drive.google.com/drive/folders/1mi9Cmgnufi3kSMCeedP7G_K-4aEcd3_A?usp=drive_link) and can be downloaded using this link.
+The datasets used in CDM have been uploaded to Google Drive and can be downloaded using the following links:
+
+2D dataset: [Google Drive](https://drive.google.com/drive/folders/1eHh9clEqTyWPladjSMiKaqqRJFWx-ze8).
+
+3D dataset: [Google Drive](https://drive.google.com/drive/folders/1I7bBZDVjF2Xet5dwdI7Cg1s0MvPkdgMP).
 
 # Network Training
 ```
