@@ -2,7 +2,8 @@
 Geological CO2 storage (GCS) is expected to play a pivotal role in achieving climate-neutrality targets by 2050. Accurate prediction of long-term CO2 storage performance relies on inverse modeling proce-
 dures that precisely characterize spatially varying geological properties using practically available observed data.
 
-Schematic diagram
+Schematic diagram：
+
 ![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/gcs.png)
 
 
@@ -16,7 +17,7 @@ Framework:
 
 Network architecture:
 
-![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/unet.png)
+![](https://github.com/ZhongZ-Wang/CDM-GCS/blob/main/Fig/network.png)
 
 # Datasets
 The datasets used in CDM have been uploaded to Google Drive and can be downloaded using the following links:
