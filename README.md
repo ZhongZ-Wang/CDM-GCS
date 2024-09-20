@@ -44,4 +44,4 @@ python Inference.py
 
 ## Supplementary Material
 
-Supplementary information: [](https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/SM).
+Supplementary information: ![](https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/SM/Supplementary Material.pdf).
