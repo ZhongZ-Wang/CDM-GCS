@@ -44,4 +44,4 @@ python Inference.py
 
 ### Supplementary Material
 
-Supplementary information can be found in (https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/SM/).
+Supplementary information can be found in https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/SM/.
