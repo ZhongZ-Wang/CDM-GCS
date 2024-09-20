@@ -42,4 +42,6 @@ python Train.py
 python Inference.py
 ```
 
-## Citation
+## Supplementary Material
+
+Supplementary information: [](https://github.com/ZhongZ-Wang/CDM-GCS/tree/main/SM).
