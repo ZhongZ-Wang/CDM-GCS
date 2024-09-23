@@ -35,9 +35,7 @@ class Diffusion:
         model.eval()
         with torch.no_grad():
             x = torch.randn((n, 3, self.img_size, self.img_size)).to(self.device)
-            x_array = torch.empty((self.noise_steps, n, 3, self.img_size, self.img_size)).to(self.device)
-            x_array[-1] = x
-            for i in tqdm(reversed(range(1, self.noise_steps)), position=0):
+            for i in tqdm(reversed(range(self.noise_steps)), position=0):
                 t = (torch.ones(n) * i).long().to(self.device)
                 predicted_noise = model(x, t, labels)
                 if cfg_scale > 0:
@@ -51,6 +49,5 @@ class Diffusion:
                 else:
                     noise = torch.zeros_like(x)
                 x = 1 / torch.sqrt(alpha) * (x - ((1 - alpha) / (torch.sqrt(1 - alpha_hat))) * predicted_noise) + torch.sqrt(beta) * noise
-                x_array[i-1] = x
         model.train()
-        return x, x_array
+        return x
