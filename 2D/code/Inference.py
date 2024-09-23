@@ -26,15 +26,4 @@ true_obs_data = true_obs_data.reshape(1, -1)
 obs = np.repeat(true_obs_data, n_posterior, axis=0)
 
 y = torch.FloatTensor(obs).to(device)
-x, x_array = diffusion.sample(model, len(y), y, cfg_scale=3)
-
-for i in range(len(x)):
-    sampled_perm = x[i, 0].clamp(-1, 1).cpu().numpy()
-    plt.imshow(sampled_perm, vmin=-1, vmax=1, cmap='coolwarm')
-    plt.savefig('./perm/sampled_perm{}.png'.format(i + 1))
-    np.savetxt('./perm/sampled_perm{}.txt'.format(i + 1), sampled_perm.flatten())
-
-x_array = x_array.clamp(-1, 1).cpu().numpy()
-hf = h5py.File('denoising{}.h5'.format(len(x)), 'w')
-hf.create_dataset('x_array', data=x_array, dtype='f', compression='gzip')
-hf.close()
+x = diffusion.sample(model, len(y), y, cfg_scale=3)
