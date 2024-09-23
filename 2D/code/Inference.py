@@ -14,12 +14,6 @@ diffusion = Diffusion(img_size=64, device=device)
 ckpt = torch.load("../Pretrained_model/ckpt.pt")
 model.load_state_dict(ckpt)
 
-if os.path.exists('./perm/'):
-    shutil.rmtree('./perm/')
-    os.makedirs('./perm/')
-else:
-    os.makedirs('./perm/')
-
 n_posterior = 100
 true_obs_data = np.loadtxt('../Data_2D/single_test/dobs_norm.txt')
 true_obs_data = true_obs_data.reshape(1, -1)
